@@ -14,7 +14,9 @@
   </head>
   <body>
     <header class="border flex justify-between w-full max-w-[800px] m-auto">
-      <h1 class="font-bold text-sm md:text-xl lg:text-2xl">TypeMaster</h1>
+      <h1 class="font-bold text-sm md:text-xl lg:text-2xl">
+        <i class="fa fa-solid fa-keyboard"></i>TypeMaster
+      </h1>
       <nav class="p-2">
         <ul>
           <li>
@@ -25,27 +27,36 @@
     </header>
     <main class="max-w-[800px] m-auto">
       <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+        <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
         temporibus dolorum aliquam asperiores consectetur. Facilis molestias,
         eos, voluptatum quia assumenda provident hic optio temporibus esse unde
-        quibusdam, explicabo fugiat officia!
+        quibusdam, explicabo fugiat officia! -->
       </section>
       <section
-        class="border flex flex-col justify-center items-center m-auto mt-10 w-full max-w-[500px]"
+        class="border flex flex-col items-center m-auto mt-10 py-2 w-full max-w-[500px]"
         id="welcome-section"
       >
-        <h1 class="font-bold text-sm mt-2 md:text-xl lg:text-2xl">
+        <h1 class="font-bold text-center text-sm mt-2 md:text-xl lg:text-2xl">
           Welcome to TypeMaster
         </h1>
+        <p class="opacity-50">Improve your typing skills with fun excercise</p>
+
+        <p class="mt-8 opacity-50 text-center">
+          Welcome to TypeMaster, your personal typing tutor. Practice regularly
+          to increase your typing speed and accuracy.
+        </p>
+        <div class="w-full border text-center text-[8rem]">
+          <h1 class="animate-pulse">T</h1>
+        </div>
         <button
-          class="bg-gray-200 hover:bg-gray-300 text-black font-bold mt-5 px-2 py-1.5"
+          class="bg-black text-white rounded-md font-bold w-[70%] mt-5 px-2 py-1.5"
           id="start-button"
           type="button"
         >
-          START
+          Start Typing
         </button>
-        <p class="mt-4">Instruction: type as fast as you can</p>
       </section>
+
       <section
         class="hidden flex flex-col justify-center items-center text-4xl border w-full max-w-[800px] m-auto"
         id="game-section"
